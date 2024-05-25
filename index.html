@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a257383c6.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card-container">
+
+            <div class="front">
+                <div class="image">
+                    <img src="img/card-logo.svg" alt="">
+                </div>
+            
+            <div class="card-num-box">**** **** **** ****</div>
+
+            <div class="flexbox">
+                <div class="box">
+                    <span>Cardholder</span>
+                    <div class="card-hol-name">NAME ON CARD</div>
+                </div>
+
+                <div class="box">
+                    <span>Expires</span>
+                    <div class="exp">
+                        <span class="exp-m">MM</span> / <span class="exp-y">YY</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="back">
+                <div class="stripe">.</div>
+                <div class="box">
+                    <span>CVV</span>
+                    <div class="cvv-box"></div>
+                    <img id="nfc" src="img/nfc.png">
+                    <img id="logo" src="img/card-logo.svg">
+                </div>
+            </div>
+
+        </div>
+
+        <form action="">
+            <div class="input-field">
+                <span>Card Number</span>
+                    <input type="text" maxlength="19" class="card-number-i">
+            </div>
+
+            <div class="input-field">
+                <span>Cardholder</span>
+                    <input type="text" maxlength="20" class="card-hold-i">
+            </div>
+
+            <div class="flexbox">
+                <div class="input-field">
+                    <span>MM</span>
+                        <input type="text" maxlength="2" class="card-expm-i">
+                </div>
+            </div>
+
+            <div class="flexbox">
+                <div class="input-field">
+                    <span>YY</span>
+                        <input type="text" maxlength="2" class="card-expy-i">
+                </div>
+            </div>
+            
+            <div class="flexbox">
+                <div class="input-field">
+                    <span>CVV</span>
+                        <input type="text" maxlength="4" class="cvv-i">
+                </div>
+            </div>
+
+            <input type="submit" value="Submit" class="sub-btn">
+        </form>
+    
+    </div>
+
+<script src="./scripts/main.js"></script>
+
+</body>
+</html>
