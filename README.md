@@ -21,9 +21,3 @@ Clone the project
 ```bash
   git clone https://github.com/anoggie/card-form-page.git
 ```
-
-Start the server
-
-```bash
-  npm run start
-```
